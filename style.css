@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #222;
+  color: white;
+  overflow: hidden;
+  font-family: Press Start 2P, sans-serif;
+}
+.global_container {
+  height: 100vh;
+}
+.div1 {
+  height: 40%;
+  padding: 30px;
+}
+.con {
+  display: flex;
+  justify-content: space-between;
+}
+h4 {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+
+.display {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-size: 25px;
+}
+
+.again {
+  width: 100px;
+  height: 40px;
+  font-weight: bold;
+}
+/* .div2 {
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  border: 1px solid green;
+} */
+.div2 {
+  height: 60%;
+  padding: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.inp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.guess {
+  width: 150px;
+  height: 70px;
+  border: 2px solid white;
+  background: none;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+.input:focus {
+  outline: none;
+}
+.check {
+  width: 100px;
+  height: 40px;
+  margin-top: 30px;
+  font-weight: bold;
+}
+.score {
+  margin-top: 30px;
+}
+.highscore {
+  margin-top: 10px;
+}
+.border {
+  border: 3px solid white;
+}
